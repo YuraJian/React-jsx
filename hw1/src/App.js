@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 
 const HomeComponent = () => {
   return <div>Home Page</div>;
