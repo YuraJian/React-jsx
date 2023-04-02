@@ -8,15 +8,15 @@ export default class Form extends Component {
     error: "",
   };
 
-  validator = () => {
+  validator = async () => {
     const userName = this.state.name;
     const userSurname = this.state.surname;
 
     if (userName.length < 3 || userSurname.length < 3) {
       console.log(userName.length);
       const errorText = "Something is wrong with your data ;(";
-      const userError = alert(errorText);
-      this.setState({ error: errorText });
+      await this.setState({ error: errorText });
+      alert(this.state.error);
       return;
     }
 
