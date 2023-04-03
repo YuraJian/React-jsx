@@ -13,7 +13,6 @@ export default class Form extends Component {
     const userSurname = this.state.surname;
 
     if (userName.length < 3 || userSurname.length < 3) {
-      console.log(userName.length);
       const errorText = "Something is wrong with your data ;(";
       await this.setState({ error: errorText });
       alert(this.state.error);

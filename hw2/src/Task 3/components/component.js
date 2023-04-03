@@ -33,7 +33,7 @@ export default class MyComponent extends Component {
     // 1. При натисканні на кнопку спрацьовує оброблювач подій onClick який використовує метод onClick
     // 2. В методі onClick змінюється state за допомогою setState
     // 3. Викликається метод render
-    // 4. Викликається метод componentDidUpdate, так як ми змінила
+    // 4. Викликається метод componentDidUpdate, так як ми змінили state
   }
 
   render() {
