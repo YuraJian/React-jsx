@@ -1,0 +1,18 @@
+.button__container {
+    position: relative;
+}
+
+.button__container:hover .button{
+    opacity: 100;
+}
+.button {
+    position: absolute;
+    bottom: 15px;
+    opacity: 0;
+    transition: 500ms;
+    background-color: transparent;
+    color: white;
+    border: none;
+    z-index: 2;
+    left: 5px;
+}
