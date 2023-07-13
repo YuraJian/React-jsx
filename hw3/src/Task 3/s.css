@@ -1,0 +1,4 @@
+.cj {
+    transform: translateX(200px);
+    transition: step-end;
+}

@@ -5,8 +5,8 @@ const Square = () => {
   const squareRef = createRef();
 
   useEffect(() => {
-    squareRef.current.style.position = "relative";
-    squareRef.current.style.left = "200px";
+    squareRef.current.style.transform = "translateX(200px)";
+    squareRef.current.style.transition = "2000ms";
   });
 
   return (
