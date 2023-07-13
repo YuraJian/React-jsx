@@ -11,9 +11,9 @@ export default class App extends Component {
     return (
       <div>
         <h2>Task 1</h2>
-        {/* <Albums /> */}
+        <Albums />
         <h2>Task 2</h2>
-        {/* <AlbumsHook /> */}
+        <AlbumsHook />
         <h2>Task 3.1</h2>
         <Square />
         <h2>Task 3.2</h2>
